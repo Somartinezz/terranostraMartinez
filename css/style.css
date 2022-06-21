@@ -1,0 +1,80 @@
+/* colores de fondo */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto&display=swap');
+*{
+	font-family:'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4{
+	font-family: 'Open Sans', sans-serif;
+	line-height: auto;
+}
+/*colores para el fondo*/
+.bg-blue{
+	background-color: rgba(192,217,230, 0.8);
+}
+.bg-cian-oscuro{
+	background-color: rgba(55, 101, 121, 0.8);
+}
+.bg-cian{
+	background-color:#80aec3;
+}
+.bg-lightblue{
+	background-color:#cce0e7;
+}
+/*colores para los textos*/
+.text-blue{
+	color: #27576a;
+}
+
+.text-regular{
+	color: #6B6666;
+	line-height: 1.4em;
+	font-size: 1.1em;
+}
+.novedades__articulo{
+	padding: 100px 60px;
+	margin: 50px 0px;
+}
+.encabezado__img--fluid{
+	width: auto;
+}
+
+/*mapa*/
+.map-responsive{
+    overflow:hidden;
+	padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+/* navbar */
+#botonera{
+	position: sticky;
+	top: 0;
+}
+
+#botonera img{
+	width: 200px;
+}
+
+	#botonera ul li a{
+		color: black;
+		font-size: 1.2rem;
+	}
+	#botonera ul li a:hover{
+		color: black;
+		font-weight: 600;
+	}
+
+@media (max-width: 280px){
+	#botonera img{
+		width: 100px;
+	}
+}
+
